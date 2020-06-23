@@ -1,11 +1,12 @@
-* {
-  margin:0px;
-  padding:0px;
+h1 {
+  font-size: 50px;
+  margin: 20px;
+  color: lightcoral;
+  font-family: fantasy;
 }
-
 p {
-  display: block;
-  width: 800px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  margin: 30px 60px auto;
+  font-family: Assistant;
+  font-size: 30px;
+  color: #333;
 }
