@@ -5,16 +5,17 @@ body {
  
 header {
   background-color: lightcoral;
-  padding-top: 15px;
+  padding: 15px 20px 2px 0px;
 }
 header ul {
   display: inline;
 }
 header li {
-  display: inline-block;
+  display: inline-flex;
   background-color: crimson;
   padding: 8px 15px 0px 15px;
-  margin: 2px 2px;
+  margin: 3px 2px;
+  float: right;
 }
 header a {
   color: lavenderblush;
