@@ -5,27 +5,25 @@ body {
  
 header {
   background-color: lightcoral;
-  padding: 15px 20px 2px 0px;
+  padding: 2px 2px 2px 30px;
 }
 header ul {
-  display: inline;
+  padding-left: 160px;
 }
 header li {
   display: inline-flex;
   background-color: crimson;
-  padding: 8px 15px 0px 15px;
-  margin: 3px 2px;
   float: right;
+  margin: 0px 3px 1px 3px;
+  padding: 8px 15px 0px 15px;
+}
+header li a {
+  font: 20px 'Assistant', 'Gill Sans', 'Trebuchet MS', serif;
 }
 header a {
   color: lavenderblush;
   text-decoration: none;
   font: 30px Helvetica, sans-serif;
-  padding-left: 30px;
-}
-header li a {
-  font: 20px 'Assistant', 'Gill Sans', 'Trebuchet MS', serif;
-  padding: 0px;
 }
 
 h1 {
