@@ -1,41 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: rgb(244, 233, 215);
-  margin: 0px;
+  background-color: rgb(250, 234, 225);
 }
  
-header {
+nav {
+  display: flex;
   background-color: lightcoral;
-  padding: 2px 2px 2px 30px;
+  justify-content: space-between;
+  align-items: flex-end;
 }
-header ul {
-  padding-left: 160px;
-}
-header li {
-  display: inline-flex;
-  background-color: crimson;
-  float: right;
-  margin: 0px 3px 1px 3px;
-  padding: 8px 15px 0px 15px;
-}
-header li a {
-  font: 20px 'Assistant', 'Gill Sans', 'Trebuchet MS', serif;
-}
-header a {
+
+nav a {
   color: lavenderblush;
   text-decoration: none;
+}
+
+nav div {
+  margin: 18px 30px 3px 30px;
+  padding: 2px 5px; 
+  align-self: start;
+  border: dashed 2px transparent;
+  transition: all 0.3s;
   font: 30px Helvetica, sans-serif;
+}
+nav div:hover {
+  border-color: crimson;
+}
+
+nav li {
+  display: flex;
+  background-color: crimson;
+  float: right;
+  border-bottom: dashed 2px transparent;
+  transition: all 0.3s;
+  font: 20px 'Assistant', 'Gill Sans', 'Trebuchet MS', serif;
+  margin: 3px 4px 2px 4px;
+  padding: 8px 15px 0px 15px;
+}
+nav li:hover {
+  background-color: #CF083D;
+  border-bottom-color: lavenderblush;
 }
 
 h1 {
-  margin: 30px;
-  padding-top: 20px;
-  padding-left: 15px;
+  margin: 50px 0px 10px 45px;
   color: lightcoral;
   font: 50px fantasy;
 }
 
 p {
-  padding: 5px 80px;
+  margin: 40px 80px;
   font: 29px 'Assistant', 'Gill Sans', 'Trebuchet MS', serif;
   color: #333;
 }
